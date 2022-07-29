@@ -20,8 +20,6 @@ router.route('/task/:id').delete((_req, res) => {
 });
 
 router.route('/task').post((_req, res) => {
-	console.log('ici')
-	console.log(_req.body)
 	createOne(_req, res);
 });
 

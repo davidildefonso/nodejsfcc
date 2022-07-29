@@ -27,7 +27,5 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-	"exclude": [
-		"./build"
-	]
+	"ignorePatterns": ["./build", "./node_modules", "./.github", "./requests"]
 }
