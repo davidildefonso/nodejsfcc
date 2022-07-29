@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-var-requires */
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 
